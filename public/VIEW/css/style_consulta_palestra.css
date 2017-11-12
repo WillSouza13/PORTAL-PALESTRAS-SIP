@@ -1,0 +1,39 @@
+.cards-body{
+    width: 100%;
+    background-color: rgba(255, 162, 0, 0.04);
+}
+.panel-item{
+
+    width: 90%;
+    background-color: rgba(255, 162, 0, 0.77);
+    border-top-right-radius: 10px;
+    border-left-color: black;
+    position: relative !important;
+    display: block;
+    padding-left: 2px;
+    border-left: 4px solid orange;
+    margin: 10px 10 0;
+}
+
+.panel-item + .panel-item{
+    margin: 10px 10 0;
+
+}
+.card-head{
+
+    width: 100%;
+    background-color: #FAF1D7;
+    border-top-right-radius: 10px;
+    border: #161102;
+}
+.card-titulo{
+    font-family: 'Constantia';
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+.card-body{
+    
+    width: 100%;
+    border-top-left-radius: 1px;
+}
