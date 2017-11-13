@@ -11,11 +11,11 @@
     text-align: center;
 }
 .img-logo {
-    margin-top: 1%;
-    margin-left: 5%;
-    height:15%;
-    width: 10%;
-    position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  height: 150px;
+  width: 200px;
+  position: absolute;
 }
 .header-bar {
     height: 20%;
@@ -24,20 +24,20 @@
     background-color: rgba(255, 162, 0, 0.38);
     margin-left: -1%;
     border-bottom-right-radius: 40px;
-  }
+}
 
-  .btn-top {
-    background-color: orange;
-    height: 50px;
-    width: 50%;
-    margin-top: 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-  }
-  .formulario{
-    height: 10%;
-    margin: 1%;
-	border:solid 5px orange;
+.btn-top {
+  background-color: orange;
+  height: 50px;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.formulario{
+  height: 10%;
+  margin: 1%;
+border:solid 5px orange;
 }
 .nav-bar {
     height: 100%;

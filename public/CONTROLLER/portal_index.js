@@ -13,10 +13,12 @@ function validar(){
 	var y = document.getElementById("txtHiddenUname");
 	y.type= "text";
 }
-function ShowCadastro(divid)
+function desfocamodal()
 {
-	var elemento = document.getElementById(divid);
-	elemento.className=elemento.className.replace('hide', 'show');
-
-//    document.getElementById(divid).style.display = "none"; // ou "block"
+	document.getElementById("modal").className = "background-modal-desfocado";
 }
+function focamodal()
+{
+	document.getElementById("modal").className = "background-modal";
+}
+
